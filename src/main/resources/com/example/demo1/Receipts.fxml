@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ReceiptsController">
+   <children>
+      <Label layoutX="193.0" layoutY="21.0" prefHeight="70.0" prefWidth="214.0" text="Receipts">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <ListView fx:id="list" layoutX="37.0" layoutY="100.0" prefHeight="279.0" prefWidth="428.0" />
+      <Button fx:id="pay_btn" layoutX="487.0" layoutY="308.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="76.0" style="-fx-background-color: e1a66d;" text="Pay" />
+      <Button fx:id="Home_btn" layoutX="37.0" layoutY="14.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="44.0" style="-fx-background-color: e1a66d;" text="H" />
+   </children>
+</AnchorPane>

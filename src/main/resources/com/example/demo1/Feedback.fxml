@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Home_btn" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.FeedbackController">
+   <children>
+      <Label layoutX="220.0" layoutY="51.0" text="Feedback">
+         <font>
+            <Font name="System Bold Italic" size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="97.0" prefHeight="18.0" prefWidth="465.0" text="Thank for being part of our journey, we would loe to hear about your experience with us!">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Label>
+      <TextArea fx:id="feedback_txt" layoutX="70.0" layoutY="181.0" prefHeight="123.0" prefWidth="466.0" promptText="Please tell us about you'r experience!" />
+      <Button fx:id="submit_btn" layoutX="70.0" layoutY="313.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="466.0" style="-fx-background-color: e1a66d;" text="Submit" textFill="WHITE" />
+      <TextField fx:id="campId_txt" layoutX="70.0" layoutY="139.0" prefHeight="35.0" prefWidth="466.0" promptText="Enter Camp Code" />
+      <Button fx:id="home_btn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="36.0" style="-fx-background-color: e1a66d;" text="H" />
+   </children>
+</AnchorPane>

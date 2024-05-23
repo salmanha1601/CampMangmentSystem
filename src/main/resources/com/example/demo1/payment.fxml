@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.PaymentController">
+   <children>
+      <Label layoutX="225.0" layoutY="39.0" text="Payment">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amount_txt" layoutX="171.0" layoutY="123.0" prefHeight="32.0" prefWidth="258.0" promptText="amount" />
+      <TextField fx:id="kidID_txt" layoutX="171.0" layoutY="165.0" prefHeight="32.0" prefWidth="258.0" promptText="Kid ID" />
+      <CheckBox layoutX="171.0" layoutY="200.0" mnemonicParsing="false" text="Accept terms and conditions" textFill="#001eff" underline="true">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="pay_btn" layoutX="171.0" layoutY="225.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="258.0" style="-fx-background-color: e1a66d;" text="Pay" />
+      <ProgressIndicator fx:id="load" layoutX="438.0" layoutY="225.0" prefHeight="40.0" prefWidth="48.0" />
+      <Button fx:id="home_btn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="41.0" style="-fx-background-color: e1a66d;" text="H" />
+   </children>
+</AnchorPane>
