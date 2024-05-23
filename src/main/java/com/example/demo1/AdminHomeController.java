@@ -48,7 +48,7 @@ public class AdminHomeController implements Initializable {
         drop_menu.setOnAction(this::changeScreens);
     }
 
-    private void changeScreens(Event event) {
+    public void changeScreens(Event event) {
         String choice= drop_menu.getValue().toString();
 
         Parent root = null;
